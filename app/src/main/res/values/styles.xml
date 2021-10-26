@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button1" parent="@style/TextAppearance.AppCompat">
+    <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:backgroundTint">#767676</item>
+    </style>
+    <style name="Button2" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:backgroundTint">#585858</item>
+    </style>
+    <style name="Button3" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:backgroundTint">#fc751a</item>
+    </style>
+</resources>
