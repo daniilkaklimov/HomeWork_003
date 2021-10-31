@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeWork3">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".settings_dark"
+            android:exported="false" />
+        <activity
+            android:name=".settings_light"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

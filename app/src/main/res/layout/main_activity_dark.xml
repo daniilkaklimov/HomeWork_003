@@ -308,4 +308,17 @@
         app:layout_constraintStart_toEndOf="@+id/button_10"
         app:layout_constraintTop_toBottomOf="@+id/button_13" />
 
+    <Button
+        android:id="@+id/settings_dark"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:backgroundTint="#585858"
+        android:text="⚙"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

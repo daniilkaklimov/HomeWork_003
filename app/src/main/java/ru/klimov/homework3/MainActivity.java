@@ -1,4 +1,5 @@
 package ru.klimov.homework3;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -8,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+
     private CalculatorModel calculator;
 
     private TextView textView;
@@ -15,7 +17,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.constraint_layout);
+        setContentView(R.layout.main_activity_light);
+
+        findViewById(R.id.settings_light).setOnClickListener(v -> {
+            Intent intent = new Intent(this, settings_light.class);
+            startActivity(intent);
+        });
 
         int[] numberIds = new int[] {
                 R.id.button_0,
@@ -63,5 +70,8 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < actionIds.length; i++) {
             findViewById(actionIds[i]).setOnClickListener(actionButtonOnClickListener);
         }
+    }
+
+    private void startActivity(MainActivity mainActivity, Intent intent) {
     }
 }
